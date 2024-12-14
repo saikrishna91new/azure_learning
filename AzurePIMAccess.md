@@ -17,3 +17,18 @@ What is PIM for groups:
 Privileged identity management - we can give access for specifc groups aor users agains specific resources based on setting and just in time access
 
 
+there are two types of groups in pim:
+
+1> Role-assignable 2> Non-Role-assignable
+
+1> Role assignale : 
+who can manage : Global administator , Privileged role administrator and group owner can manage the group and no user can't change the credential of the active group memebers 
+its helps only owner can manage and prevent admin to higher privileged acess with out going to a request 
+
+2> Non- Role -assignable: 
+who can manage: exchange administrator, group administrator, user administrator, and can change the roles and credetials of active members
+It is help fule for help desk adminstrators and user administrators
+
+
+
+
