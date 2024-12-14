@@ -31,4 +31,8 @@ It is help fule for help desk adminstrators and user administrators
 
 
 
+How to create groups:
+
+portal - > entra id -> groups -> new group -> 
+
 
