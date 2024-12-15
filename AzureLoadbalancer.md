@@ -42,6 +42,42 @@ There are 2 types of azure load balancers
   ![image](https://github.com/user-attachments/assets/6f8f41b4-bfd3-45af-802b-44f2f8ea6b1b)
 >> 
 
+IQ:: can we use multiple backend pools and load balancer rules: :
+
+Yes we can use it for the different port numbers , in case of same port number it wont work as the port number is same so we can create one more frontendip for the same lb and configure the lb rule
+
+IQ: can we load ssl certs and redirectis possible??
+
+No we cant load ssl cert at l4 load balancer and no redirection also possible 
+certs need to be installed at the server level, by using the port 443 port
+to over come this we can user application gateway
+
+
+Application GAte way:
+>>>>>>>>>>>>>>>>>>>
+Note: will take 15 mins to create
+>>>>>>>>>>>>>>>>>>>
+
+Creating app gateway:
+basic
+![image](https://github.com/user-attachments/assets/d0def569-22b0-497b-b1ee-6c74f8222d9e)
+front end
+
+![image](https://github.com/user-attachments/assets/ea719b5f-2cd8-40bb-b83c-818e9a411665)
+
+configuration: front end -routing rules -backend pool (create some default and change later)
+![image](https://github.com/user-attachments/assets/5f498369-572a-459b-a1c9-a7f5dfa60f18)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
