@@ -37,7 +37,11 @@ There are 2 types of azure load balancers
  * inbound nat
  * outbound
  * properties
- * 
+
+>> Once the lb is configured create the dns rule with a record like below
+  ![image](https://github.com/user-attachments/assets/6f8f41b4-bfd3-45af-802b-44f2f8ea6b1b)
+>> 
+
 
 
 
