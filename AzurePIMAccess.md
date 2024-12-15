@@ -1,5 +1,6 @@
 Azure Pim:
 
+Pre req: Required AD premium p2 license
 What we can do with PIM:
 
 >> Role Assignenment: is all about granting permissions to users or groups for accessing azure resources  - usefull to efficiently applying least privilege access
@@ -31,8 +32,10 @@ It is help fule for help desk adminstrators and user administrators
 
 
 
-How to create groups:
+What is the main perpose of PMI: 
 
-portal - > entra id -> groups -> new group -> 
+to maintina leaset privilazed access we don't need to give perminant access to any users or groups instead we can give timely access to people
+
+
 
 
